@@ -9,6 +9,8 @@ verify_ssl = true
 django = "*"
 django-admin-honeypot = "*"
 django-admin-interface = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.7"
