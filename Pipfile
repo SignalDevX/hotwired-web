@@ -11,6 +11,7 @@ django-admin-honeypot = "*"
 django-admin-interface = "*"
 gunicorn = "*"
 django-heroku = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
