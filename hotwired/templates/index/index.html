@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}HotWired Bot{% endblock title %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+{% endblock head %}
+
+{% block content %}
+    <div class="alert alert-warning" role="alert">
+        <strong>Holy guacamole!</strong> Please Check In Later! This Site's under Construction.
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+{% endblock content %}
