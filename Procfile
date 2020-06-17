@@ -1,1 +1,1 @@
-web: gunicorn hotwired.hotwired.wsgi 
+web: gunicorn hotwired.hotwired.wsgi --log-file -
