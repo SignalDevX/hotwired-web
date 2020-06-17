@@ -1,1 +1,1 @@
-web: gunicorn hotwired.wsgi
+web: python manage.py runserver
