@@ -1,1 +1,1 @@
-web: gunicorn hotwired.hotwired.wsgi --log-file -
+web: python manage.py runserver
