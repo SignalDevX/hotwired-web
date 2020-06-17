@@ -1,0 +1,1 @@
+web: python hotwired/manage.py runserver
