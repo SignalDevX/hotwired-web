@@ -1,1 +1,1 @@
-web: python hotwired/manage.py runserver
+web: python manage.py runserver
